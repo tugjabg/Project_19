@@ -1,0 +1,17 @@
+Project chia làm 3 foldr chính :
+        - .idea : không cần quan tâm
+        - Database : dùng để chứa các file script của sql
+        - src chứa mã nguồn:
+            + test : không quan tâm
+            + main :
+                . java :
+                    ~ Controllers : chứa các file controller điều khiển trang web
+                    ~ DAO : Data access object : dùng để kéo dữ liệu từ phía databse lên cho controller sử dụng
+                    ~ Models : chứa các object
+                    ~ DatabaseConnection : chứa duy nhất 1 file làm nhiệm vụ mở cổng kết nối đến Database sử dụng JDBC
+                . webapp :
+                    ~ index.jsp : là trang mở đầu vào trang chủ
+                    ~ WEB-INF -> Views -> Adminds : chứa file thuộc về Admin : quản lý user, bài viết ...
+                    ~ WEB-INF -> Views -> Users : Chứa file thuộc về user như xem bài viết, bình luận bài viết
+                    ~ Jsps : chứa file chung :
+                    ~ WEB-INF -> Styles :

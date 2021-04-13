@@ -1,0 +1,9 @@
+Ví dụ project_user_profile.sql : tên schema là project, table là user_profile
+
+user_profile :
+    - ID : định danh trong cột, khóa chính, tự tăng
+    - username : tên đăng nhập
+    - password : mật khẩu
+    - display_name : tên hiển thị
+    - birthday : ngày tháng năm sinh, nhập dưới dạng YYYY-mm-dd
+    - rule : quyền hạn 1 là Admin, 2 là User
