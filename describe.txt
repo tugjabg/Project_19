@@ -1,4 +1,4 @@
-Project chia làm 3 foldr chính :
+Project chia làm 3 folder chính :
         - .idea : không cần quan tâm
         - Database : dùng để chứa các file script của sql
         - src chứa mã nguồn:
